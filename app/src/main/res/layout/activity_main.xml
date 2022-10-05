@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imagehoi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/co1" />
+
+    <TextView
+        android:background="@color/purple_200"
+        android:id="@+id/textViewkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagehoi"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Chon hinh phia duoi"
+        android:textColor="#ff00"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagetraloi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textViewkt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/android" />
+
+    <TextView
+        android:id="@+id/textViewdiem"
+        android:textSize="22dp"
+        android:textColor="#ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="34dp"
+        android:text="100" />
+</RelativeLayout>
